@@ -6,7 +6,7 @@ from .models import User, Team, Activity, Leaderboard, Workout
 
 @api_view(['GET'])
 def api_root(request, format=None):
-    base_url = 'https://ominous-lamp-4j76wg7vp9p37g9p.github.dev/'
+    base_url = 'https://ominous-lamp-4j76wg7vp9p-8000.app.github.dev/'
     return Response({
         'users': base_url + 'api/users/',
         'teams': base_url + 'api/teams/',

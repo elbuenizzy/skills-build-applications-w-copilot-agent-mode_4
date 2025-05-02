@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-gqge88m!o#0tawmw3d=_m5gk&hp(#whg00@vmc^5w3w^c9zj3c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', 'ominous-lamp-4j76wg7vp9p37g9p.github.dev']
 
 
 # Application definition
